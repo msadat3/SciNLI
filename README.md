@@ -1,6 +1,20 @@
 # SciNLI
 This repository contains the dataset released in the ACL 2022 paper "SciNLI: A Corpus for Natural Language Inference on Scientific Text". The code for loading the dataset and running experiments for baseline models will be made available soon.
 
+If you use this dataset, please cite our paper:
+
+```
+@inproceedings{sadat-caragea-2022-SciNLI,
+        title = "SciNLI: A Corpus for Natural Language Inference on Scientific Text",
+        author = "Sadat, Mobashir  and
+          Caragea, Cornelia",
+        booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        year = "2022",
+        address = "Dublin, Ireland",
+        publisher = "Association for Computational Linguistics",
+    }
+```
+
 ## Dataset
 The directory containing the benchmark train, test and development splits of the SciNLI dataset is available [here](https://drive.google.com/drive/folders/1kjBTVBV1HlMWW5xK8V096LahsU3pULHU?usp=sharing).
 
