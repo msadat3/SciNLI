@@ -26,7 +26,7 @@ We derive [SciNLI](https://drive.google.com/drive/folders/1kjBTVBV1HlMWW5xK8V096
 For annotating the sentence pairs for our training set, we employ our distant supervision method which makes use of linking phrases indicative of the semantic relation between the sentences they occur in and their respective previous sentences. We train our models on these potentially noisy sentence pairs. However, for a realistic evaluation benchmark, we manually annotate the sentence pairs for the test and development sets. We refer the reader to our [paper](https://arxiv.org/pdf/2203.06728.pdf) for a more in-depth description. 
 
 ### Examples
-
+![Alt text](Images/Examples.png?raw=False "Title")
 
 ### Files
 
