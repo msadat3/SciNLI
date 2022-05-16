@@ -43,15 +43,18 @@ For annotating the sentence pairs for our training set, we employ our distant su
 If you use this dataset, please cite our paper:
 
 ```
-@inproceedings{sadat-caragea-2022-SciNLI,
-        title = "SciNLI: A Corpus for Natural Language Inference on Scientific Text",
-        author = "Sadat, Mobashir  and
-          Caragea, Cornelia",
-        booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-        year = "2022",
-        address = "Dublin, Ireland",
-        publisher = "Association for Computational Linguistics",
-    }
+@inproceedings{sadat-caragea-2022-scinli,
+    title = "{S}ci{NLI}: A Corpus for Natural Language Inference on Scientific Text",
+    author = "Sadat, Mobashir  and
+      Caragea, Cornelia",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.511",
+    pages = "7399--7409",
+}
 ```
 ## License
 SciNLI is licensed with Attribution-ShareAlike 4.0 International [(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
