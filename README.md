@@ -9,7 +9,7 @@ Existing Natural Language Inference (NLI) datasets, while being instrumental in 
 ## Dataset Description
 We derive [SciNLI](https://drive.google.com/drive/folders/1kjBTVBV1HlMWW5xK8V096LahsU3pULHU?usp=sharing) from the papers published in the ACL anthology on NLP and computational linguistics. Specifically, we extract sentence pairs from papers published between 2000 and 2019 to create our training set and papers published in 2020 for our test and develpment sets.
 
-For annotating the sentence pairs for our training set, we employ our distant supervision method which makes use of linking phrases indicative of the semantic relation between the sentences they occur in and their respective previous sentences. We train our models on these potentially noisy sentence pairs. However, for a realistic evaluation benchmark, we manually annotate the sentence pairs for the test and development sets. We refer the reader to our [paper](https://arxiv.org/pdf/2203.06728.pdf) for an in-depth description of our dataset construction process. 
+For annotating the sentence pairs for our training set, we employ our distant supervision method which makes use of linking phrases indicative of the semantic relation between the sentences they occur in and their respective previous sentences. We train our models on these potentially noisy sentence pairs. However, for a realistic evaluation benchmark, we manually annotate the sentence pairs for the test and development sets. We refer the reader to our [paper](https://aclanthology.org/2022.acl-long.511) for an in-depth description of our dataset construction process. 
 
 ### Examples
 ![Alt text](Images/Examples.png?raw=False "Title")
