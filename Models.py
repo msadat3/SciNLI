@@ -32,7 +32,7 @@ class XLnet(nn.Module):
     def __init__(self, num_classes):
         super(XLnet, self).__init__()
         self.lm = XLNetModel.from_pretrained("xlnet-base-cased", output_attentions = False, output_hidden_states = True,return_dict=False)
-        self.sequence_summary = SequenceSummary(self.bert.config)
+        self.sequence_summary = SequenceSummary(self.lm.config)
         self.linear = nn.Linear(768, num_classes)
     def forward(self, input, att_mask):
         output= self.lm(input, attention_mask = att_mask)
