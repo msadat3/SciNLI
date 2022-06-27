@@ -1,7 +1,7 @@
 # SciNLI: A Corpus for Natural Language Inference on Scientific Text
 This repository contains the dataset released in the ACL 2022 paper "SciNLI: A Corpus for Natural Language Inference on Scientific Text". **The dataset can be downloaded from [here](https://drive.google.com/drive/folders/1kjBTVBV1HlMWW5xK8V096LahsU3pULHU?usp=sharing).** The code for loading the dataset and running experiments for baseline models will be made available soon.
 
-**If you face any issues while downloading the dataset, raise an issue in this repository or contact us at msadat3@uic.edu.**
+**If you face any difficulties while downloading the dataset, raise an issue in this repository or contact us at msadat3@uic.edu.**
 
 ## Abstract
 Existing Natural Language Inference (NLI) datasets, while being instrumental in the advancement of Natural Language Understanding (NLU) research, are not related to scientific text. In this paper, we introduce SciNLI, a large dataset for NLI that captures the formality in scientific text and contains 107,412 sentence pairs extracted from scholarly papers on NLP and computational linguistics. Given that the text used in scientific literature differs vastly from the text used in everyday language both in terms of vocabulary and sentence structure, our dataset is well suited to serve as a benchmark for the evaluation of scientific NLU models. Our experiments show that SciNLI is harder to classify than the existing NLI datasets. Our best performing model with XLNet achieves a Macro F1 score of only 78.18% and an accuracy of 78.23% showing that there is substantial room for improvement.
@@ -38,6 +38,23 @@ For annotating the sentence pairs for our training set, we employ our distant su
   * Dev: 2,000 - human annotated.
 
   * Total: 107,412.
+
+## Model Training & Testing
+### Requirements
+```
+numpy==1.21.6
+pandas==1.4.1
+scikit_learn==1.1.1
+torch==1.9.0+cu111
+transformers==4.20.1
+transformers.egg==info
+```
+
+### Pre-trained Language Models
+
+```
+python Train_and_test_models.py --base <location of a directory containing the train, test and dev files in CSV format> --model_type <'BERT', 'Sci_BERT', 'RoBERTa' or 'XLNet'> --batch_size <batch size> --max_length <combined max length of sentence1 and sentence2> --num_epochs <number of epochs to train the model for> --epoch_patience <patience for early stopping> --device <device to run your experiment on> --random_seed <some random seed>
+```
 
 ## Citation
 If you use this dataset, please cite our paper:
