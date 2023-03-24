@@ -1,5 +1,5 @@
 # SciNLI: A Corpus for Natural Language Inference on Scientific Text
-This repository contains the dataset and code for the ACL 2022 paper "SciNLI: A Corpus for Natural Language Inference on Scientific Text". **The dataset can be downloaded from [here](https://drive.google.com/drive/folders/1kjBTVBV1HlMWW5xK8V096LahsU3pULHU?usp=sharing).**
+This repository contains the dataset and code for the ACL 2022 paper "SciNLI: A Corpus for Natural Language Inference on Scientific Text." **The dataset can be downloaded from [here](https://drive.google.com/drive/folders/1kjBTVBV1HlMWW5xK8V096LahsU3pULHU?usp=sharing).**
 
 **If you face any difficulties while downloading the dataset, raise an issue in this repository or contact us at msadat3@uic.edu.**
 
